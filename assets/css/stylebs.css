@@ -1,0 +1,140 @@
+/*Global Adjustments*/
+
+		 html,
+			  body {
+				height: 100%;
+				background: url(../images/whirlpool.png);
+				font-family: "Arial", Hevletica Neue, Helvetica, sans-serif;
+			  }
+
+				h1, h2, h3 {
+					font-family:"Georgia", Times, Times New Roman, serif;
+					color:#4aaaac;
+				}
+		
+/*Navbar*/
+			.navbar {
+				background-color: #fff;
+				border-bottom: 2px solid #ccc
+			}
+			li {
+				margin-top: 10px;
+			}
+			
+			div.navbar-header {
+						text-align: center;
+						text-decoration: none;
+						background-color: #4aaaa5;
+						max-height:50px;
+						min-height:80px;
+						width:100%;
+					}
+				.navbar-header h2 {
+						color:#fff;
+					}
+
+
+/*Main Container 	*/
+		
+		.MainContent{
+		background-color:#fff;
+		font-size:16px;
+		}
+		
+		.img {
+			font-size:18px;
+			margin-right:10px;
+		}
+		
+		.MainContent h2, hr {
+		margin-left: 2%;
+		
+		}
+		
+		.aside {
+			background-color: #fff;
+			text-align: center;
+		}
+		.aside img {
+			margin-bottom: 4%;
+		}
+		
+		
+/*		works until 991px*/
+
+		.panel  { 
+    		margin-top: 0px;
+			}
+			
+	.panel-default>.panel-heading {
+     background-color: #fff; 
+	}
+	
+	.glyphicon {
+	height:"";
+	width:7vh;
+	display: inline-block;
+	}
+	
+	/* FOOTER*/
+		  #wrap {
+			min-height: 100%;
+			height: auto !important;
+			height: 100%;
+			/* Negative indent footer by it's height */
+			margin: 0 auto -80px;
+		  }
+
+
+		  #push,
+		  #footer {
+			height: 80px;
+		  }
+		  #footer {
+			background-color: #666;
+			text-align: center;
+			color:#fff;
+			border-top:10px solid #4aaaa5;
+		  }
+		  #footer p{
+		  margin-top: 2%;
+
+		  }
+		  
+		  
+	
+@media screen and (max-width: 640px) {
+  ul {
+	   display:none;
+	   } 
+	  
+	.panel  { 
+    		margin-top: 10px;
+			}
+   
+}
+	
+
+
+       
+@media screen and (max-width: 768px) and (min-width:639px) {
+       
+	   ul {
+	   display:none;
+	   } 
+	   .panel  { 
+    		margin-top: 10px;
+			}
+		
+		#footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+	  
+@media screen and (max-width: 980px) and (min-width:769px) {
+      
+        
+      }	  
